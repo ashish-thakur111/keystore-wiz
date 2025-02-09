@@ -1,0 +1,18 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[gradlew.bat]
+end_of_line = crlf
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+[*.{gradle,kt,kts}]
+indent_style = space
+indent_size = 2

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.ashisht.keystore_wiz.keystore_wiz.controllers.ListController">
+    <Label fx:id="aliasLabel" layoutY="6.0" prefHeight="45.0" style="-fx-alignment: center;" text="Name" textAlignment="CENTER">
+        <font>
+            <Font size="16.0" />
+        </font>
+        <AnchorPane.topAnchor>0.0</AnchorPane.topAnchor>
+        <AnchorPane.leftAnchor>0.0</AnchorPane.leftAnchor>
+        <AnchorPane.rightAnchor>0.0</AnchorPane.rightAnchor>
+    </Label>
+    <ListView layoutX="-1.0" layoutY="58.0" prefHeight="268.0" prefWidth="544.0">
+        <AnchorPane.topAnchor>58.0</AnchorPane.topAnchor>
+        <AnchorPane.leftAnchor>0.0</AnchorPane.leftAnchor>
+        <AnchorPane.rightAnchor>0.0</AnchorPane.rightAnchor>
+        <AnchorPane.bottomAnchor>0.0</AnchorPane.bottomAnchor>
+    </ListView>
+    <Label layoutX="51.0" layoutY="73.0" prefHeight="29.0" prefWidth="133.0" text="Name"/>
+    <Label layoutX="230.0" layoutY="69.0" prefHeight="37.0" prefWidth="323.0" fx:id="certName" text="certName">
+        <AnchorPane.leftAnchor>230.0</AnchorPane.leftAnchor>
+        <AnchorPane.topAnchor>69.0</AnchorPane.topAnchor>
+    </Label>
+    <Label layoutX="51.0" layoutY="106.0" prefHeight="37.0" prefWidth="156.0" text="Issued To"/>
+    <Label layoutX="230.0" layoutY="106.0" prefHeight="37.0" prefWidth="347.0" fx:id="issuedTo" text="issuedTo">
+        <AnchorPane.leftAnchor>230.0</AnchorPane.leftAnchor>
+        <AnchorPane.topAnchor>106.0</AnchorPane.topAnchor>
+    </Label>
+    <Label layoutX="51.0" layoutY="152.0" prefHeight="29.0" prefWidth="140.0" text="Issued By">
+    </Label>
+    <Label layoutX="230.0" layoutY="148.0" prefHeight="37.0" prefWidth="323.0" fx:id="issuedBy" text="issuedBy">
+        <AnchorPane.leftAnchor>230.0</AnchorPane.leftAnchor>
+        <AnchorPane.topAnchor>148.0</AnchorPane.topAnchor>
+    </Label>
+    <Label layoutX="51.0" layoutY="188.0" prefHeight="37.0" prefWidth="148.0" text="Valid From"/>
+    <Label layoutX="230.0" layoutY="186.0" prefHeight="37.0" prefWidth="337.0" fx:id="validFrom" text="validFrom">
+        <AnchorPane.leftAnchor>230.0</AnchorPane.leftAnchor>
+        <AnchorPane.topAnchor>186.0</AnchorPane.topAnchor>
+    </Label>
+    <Label layoutX="51.0" layoutY="224.0" prefHeight="37.0" prefWidth="140.0" text="Valid Until"/>
+    <Label layoutX="230.0" layoutY="222.0" prefHeight="37.0" prefWidth="337.0" fx:id="validUntil" text="validUntil">
+        <AnchorPane.leftAnchor>230.0</AnchorPane.leftAnchor>
+        <AnchorPane.topAnchor>222.0</AnchorPane.topAnchor>
+    </Label>
+</AnchorPane>
