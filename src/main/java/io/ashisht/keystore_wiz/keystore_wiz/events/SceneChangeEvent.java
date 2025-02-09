@@ -1,5 +1,5 @@
 /**
- * Copyright 2025 Ashish Thakur(ashish.thakur1110@gmail.com)
+ * Copyright ©️ 2025 Ashish Thakur <ashish.thakur1110@gmail.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
